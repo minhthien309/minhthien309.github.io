@@ -1,10 +1,19 @@
-﻿<html>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>﻿
+<html>
     <head>
             <h1>Ðây lẽ ra là trang web nhưng vì nó chưa có nội dung nên chưa gọi là web</h1>
     </head>
     <body>
-        <script>
-        alert('noob');
-        </script>
+        <div id="app">
+            <span>{{s1}}</span>
+        </div>
     </body>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                s1: 'Test Vue Git'
+            }
+        })
+    </script>
 </html>

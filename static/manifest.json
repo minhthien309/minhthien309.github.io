@@ -1,21 +1,20 @@
 {
-  "short_name": "FirstVuePWA",
-  "name": "First Vue PWA App",
+  "name": "Vue Project",
+  "short_name": "Vue Project",
   "icons": [
     {
-      "src": "/192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "/static/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "/512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "/static/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": "/?utm_source=a2hs",
-  "background_color": "#FFFFFF",
+  "start_url": "/index.html?mode=standalone",
   "display": "standalone",
-  "scope": "/",
-  "theme_color": "#FFFFFF"
+  "background_color": "#000000",
+  "theme_color": "#4DBA87"
 }

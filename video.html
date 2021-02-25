@@ -4,7 +4,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function (event) {
       const baseHost = "http://171.227.194.220";
-      const query = `${baseHost}/control?var=${el.id}&val=${value}`
+      const query = `${baseHost}/control?var=framesize&val=8`
     
       fetch(query).then(response => {
           console.log(`request to ${query} finished, status: ${response.status}`)
